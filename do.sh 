@@ -1,0 +1,8 @@
+#!/bin/sh
+APP_NAME=${APP_NAME:-trajectoryclient}
+
+start() {
+    dotnet run
+}
+
+$*
