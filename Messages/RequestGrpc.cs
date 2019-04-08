@@ -5,6 +5,7 @@
 #pragma warning disable 0414, 1591
 #region Designer generated code
 
+using System;
 using grpc = global::Grpc.Core;
 
 namespace TrajectoryServer {
