@@ -8,7 +8,7 @@ namespace trajectoryClient
     {
         static void Main(string[] args)
         {
-            ClientServices.RunClientService();
+            Services.RunClientService();
         }
     }
 }

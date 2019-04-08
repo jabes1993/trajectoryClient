@@ -7,7 +7,7 @@ using static TrajectoryServer.DroneService;
 
 namespace trajectoryClient.lib.Services
 {
-    public class ClientServices
+    public class Services
     {
         public static void RunClientService()
         {
