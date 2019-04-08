@@ -1,4 +1,6 @@
 ﻿using System;
+using Grpc.Core;
+using trajectoryClient.lib.Services;
 
 namespace trajectoryClient
 {
@@ -6,7 +8,7 @@ namespace trajectoryClient
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ClientServices.RunClientService();
         }
     }
 }

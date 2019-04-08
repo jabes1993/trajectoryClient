@@ -1,8 +1,18 @@
 #!/bin/sh
+export TrajectoryServer=0.0.0.0:50041
 APP_NAME=${APP_NAME:-trajectoryclient}
 
 start() {
     dotnet run
+}
+
+clean() {
+    dotnet clean
+}
+
+build() {
+    dotnet build
+    dotnet restore
 }
 
 $*
